@@ -1,8 +1,0 @@
-osm,smiles,activity
-OSM-LO-16,CC(C)(C)Oc1ccc(-c2nnc3cncc(OCC(O)c4ccc(F)c(F)c4)n23)cc1,0.46
-OSM-LO-17,Cc1ccc(COc2cncc3nnc(-c4ccc(C(C)C)cc4)n23)cn1,25
-OSM-LO-18,NCc1cccc(CCOc2cncc3nnc(-c4ccc(Cl)cc4)n23)c1,10.94
-OSM-LO-19,CC(O)COc1cncc2nnc(-c3ccc(OC(F)F)cc3)n12,25
-OSM-LO-48,Nc1cccc(CCOc2cncc3nnc(-c4ccc(Cl)cc4)n23)c1,2.42
-OSM-LO-49,FC(F)Oc1ccc(-c2nnc3cncc(OCCc4ccco4)n23)cc1,1.24
-OSM-S-369,FC(F)Oc1ccc(-c2nnc3cncc(OCCc4ccccc4)n23)cc1,0.3578
