@@ -18,7 +18,7 @@ We subsequently retrained the pipeline with all available data (original trainin
 Using the methodology described by the [ETH Modlab](https://github.com/ETHmodlab/virtual_libraries) for low data generative models, we generated 683 new series 4 molecules using for transfer learning the best experimentally validated molecules (IC50 <= 1) (89 molecules) and the best molecules from Round 2 (90 molecules)
 
 ## Selection of highly potent candidates
-We use the Zairachem model to select the highest active molecules (predicted active by both models as described in the [notebooks](https://github.com/ersilia-os/osm-series4-synthesis-round1/tree/main/notebooks) from:
+We use the Zairachem model to select the highest active molecules (predicted active by both models as described in the [notebooks](https://github.com/ersilia-os/osm-series4-synthesis-round1/tree/main/notebooks)) from:
 * Set of pre-selected candidates in round 2 (17.876 molecules): 1094 molecules
 * New synthesis round based on high actives (683 molecules): 201 molecules
 * Best compounds selected in round 2 (90 molecules): 35 molecules
