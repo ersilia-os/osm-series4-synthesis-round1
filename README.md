@@ -12,7 +12,7 @@ The Zairachem-trained model provides both a binary classification score (0: inac
 
 In addition, we trained a second model using a more restrictive cut-off of 1 uM for potency. Comparison of the different model performances can be found under data > competition_benchmark.
 
-We subsequently retrained the pipeline with all available data (original training set + competition molecules + newest synthesized molecules), producing two models (with cut-offs for binary classification set at 1 and 2.5 uM respectively)
+We subsequently retrained the pipeline with all available data (original training set + competition molecules + newest synthesized molecules), producing two models (with cut-offs for binary classification set at 1 and 2.5 uM respectively). Models can be downloaded ([1uM](https://zairachem-models.s3.eu-central-1.amazonaws.com/osm/osm_1uM_all.zip) and [2.5uM](https://zairachem-models.s3.eu-central-1.amazonaws.com/osm/osm_25uM_all.zip) cut-offs), and run with the [ZairaChem package](https://github.com/ersilia-os/zaira-chem)
 
 ## New generation of candidates based on high-actives
 Using the methodology described by the [ETH Modlab](https://github.com/ETHmodlab/virtual_libraries) for low data generative models, we generated 683 new series 4 molecules using for transfer learning the best experimentally validated molecules (IC50 <= 1) (89 molecules) and the best molecules from Round 2 (90 molecules)
